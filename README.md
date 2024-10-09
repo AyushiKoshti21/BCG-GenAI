@@ -10,14 +10,6 @@ Define predefined queries: Select 3 to 5 common financial queries (e.g., "What i
 Prepare responses: Use the analyzed financial data to create canned responses for these queries. This step involves mapping each predefined query to a specific response based on your data analysis.
 Step 3: Basic chatbot development
 Chatbot logic: Write a simple Python script that uses if-else statements to match user input (the predefined queries) to the responses you prepared. For a more interactive experience, consider using a basic Python library such as input() for command-line interaction or a simple Flask app for web-based interaction.
-def simple_chatbot(user_query):
-   if user_query == "What is the total revenue?":
-       return "The total revenue is [amount]."
-   elif user_query == "How has net income changed over the last year?":
-       return "The net income has [increased/decreased] by [amount] over the last year."
-   # Add more conditions for other predefined queries
-   else:
-       return "Sorry, I can only provide information on predefined queries."
 Step 4: Demonstration and documentation
 Test your chatbot: Spend a few minutes testing the chatbot with the predefined queries to ensure it responds correctly.
 Prepare a brief documentation: Write a short summary explaining how your chatbot works, the predefined queries it can respond to, and any limitations.
