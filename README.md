@@ -5,11 +5,14 @@ Building a fully functional AI chatbot for financial analysis is a complex proce
 Step 1: Preparation 
 Review the analyzed data: Quickly review the financial data you analyzed in Task 1 to refresh your memory on what information is available.
 Set up your environment: Ensure Python and essential libraries (like pandas for data handling and Flask for a simple web application, if applicable) are installed.
+
 Step 2: Chatbot design and data preparation
 Define predefined queries: Select 3 to 5 common financial queries (e.g., "What is the total revenue?", "How has net income changed over the last year?").
 Prepare responses: Use the analyzed financial data to create canned responses for these queries. This step involves mapping each predefined query to a specific response based on your data analysis.
+
 Step 3: Basic chatbot development
 Chatbot logic: Write a simple Python script that uses if-else statements to match user input (the predefined queries) to the responses you prepared. For a more interactive experience, consider using a basic Python library such as input() for command-line interaction or a simple Flask app for web-based interaction.
+
 Step 4: Demonstration and documentation
 Test your chatbot: Spend a few minutes testing the chatbot with the predefined queries to ensure it responds correctly.
 Prepare a brief documentation: Write a short summary explaining how your chatbot works, the predefined queries it can respond to, and any limitations.
